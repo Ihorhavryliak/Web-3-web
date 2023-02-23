@@ -67,7 +67,7 @@ function App() {
             </p>
             {/*    Warning */}
             <p className="alert alert-warning small">
-              Warning! Might be long loading all tokens.
+            Warning! Might be long loading on what tokens are on the given address.
             </p>
             {/* form */}
             <form onSubmit={onSend} className="form mb-3">
@@ -107,7 +107,7 @@ function App() {
 
                 {/*   List of tokens */}
                 <p className="overflow__main">
-                  How many tokens is on given address:
+                    What tokens is on given address:
                   <span className="fs-5 ms-2 fw-bold">
                     {data.length > 0 && JSON.stringify(data[0].allTokens)}
                   </span>
